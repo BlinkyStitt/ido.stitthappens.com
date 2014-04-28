@@ -1,6 +1,7 @@
 /* Color CSS File */
 body {
   color: rgb(55, 20, 78);
+  background-color: rgb(252, 240, 230);
 }
 h1,
 h2,
@@ -14,6 +15,9 @@ a {
   color: rgb(55, 20, 78);
 }
 a:hover {
+  color: rgb(55, 20, 78);
+}
+.subscribe h2 span{
   color: rgb(55, 20, 78);
 }
 
@@ -36,6 +40,9 @@ a:hover {
   background: rgb(234, 117, 23);
 }
 /* Navigation Menu */
+.header .navbar {
+  background-color: rgb(151, 132, 163);
+}
 .header .navbar .navbar-brand > h1 > i {
   color: rgb(234, 117, 23);
 }
