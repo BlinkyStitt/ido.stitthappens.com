@@ -1,4 +1,4 @@
-/* Color CSS File */
+/* Color CSS File and some other customizations */
 body {
   color: rgb(55, 20, 78);
   background-color: rgb(252, 240, 230);
@@ -28,6 +28,7 @@ a:hover {
 .br-color {
   background: rgb(234, 117, 23) !important;
 }
+
 /* Theme Default Button */
 .btn-theme {
   background: rgb(234, 117, 23);
@@ -35,10 +36,12 @@ a:hover {
 .btn-theme:hover {
   background: rgb(183, 94, 20);
 }
+
 /* Border */
 .bor {
   background: rgb(234, 117, 23);
 }
+
 /* Navigation Menu */
 .header .navbar {
   background-color: rgb(151, 132, 163);
@@ -58,20 +61,24 @@ a:hover {
 .header .navbar .navbar-toggle {
   background: rgb(234, 117, 23);
 }
+
 /* Default Heading */
 .default-heading .dh-icon i {
   color: rgb(234, 117, 23);
 }
+
 /* Slider */
 .tp-banner-container {
   background: rgb(234, 117, 23) url("../img/overlay.png") repeat;
   background-size: 252px 230px;
 }
+
 /* Services Block */
 .services {
   background: rgb(234, 117, 23) url("../img/overlay.png") repeat;
   background-size: 252px 230px;
 }
+
 /* Team */
 .team {
   background: rgb(234, 117, 23) url("../img/overlay.png") repeat;
@@ -86,6 +93,7 @@ a:hover {
 .team-member .deg {
   color: rgb(55, 20, 78);
 }
+
 /* Quote two */
 .quote-two .btn-xtra {
   background: rgb(234, 117, 23) !important;
@@ -95,10 +103,12 @@ a:hover {
   background: rgb(183, 94, 20) !important;
   border-colro: rgb(183, 94, 20) !important;
 }
+
 /* Portfolio Block */
 .portfolio .portfolio-content .p-hover i {
   background: rgb(234, 117, 23);
 }
+
 /* About Us Block */
 .about .about-heading {
   background: rgb(234, 117, 23) url("../img/overlay.png") repeat;
@@ -128,11 +138,13 @@ a:hover {
 .blog .grid .grid-entry .read-more i {
   color: rgb(234, 117, 23) !important;
 }
+
 /* CTA Block */
 .cta {
   background: rgb(234, 117, 23) url("../img/overlay.png") repeat;
   background-size: 252px 230px;
 }
+
 /* Contact Block */
 .contact .contact-info .info-item i {
   color: rgb(234, 117, 23);
@@ -145,4 +157,25 @@ a:hover {
 }
 .contact form textarea.error {
   border-color: rgb(234, 117, 23);
+}
+
+/* Registry (Clients) */
+.client .client-item h2 {
+  max-width:240px;
+  width:100%;
+  margin:0 auto;
+  padding:32px 5px 0px 5px;
+}
+
+/* Registry (Clients) */
+.client .client-item2 h2 {
+  max-width:240px;
+  width:100%;
+  margin:0 auto;
+  padding:22px 5px 0px 5px;
+}
+
+.client .client-item .qr {
+  width: 33%;
+  padding: 0;
 }
