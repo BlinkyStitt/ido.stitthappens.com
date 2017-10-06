@@ -10,3 +10,5 @@ COPY css /usr/share/nginx/html/css/
 COPY index.html /usr/share/nginx/html/
 
 COPY build/index.min.js /usr/share/nginx/html/build/
+
+COPY default.conf /etc/nginx/conf.d/
