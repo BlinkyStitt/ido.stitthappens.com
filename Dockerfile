@@ -1,4 +1,4 @@
-FROM nginx:1.30.7-trixie@sha256:7fad6c0dff97965adbddf28027d934b111fc0221a554315dc274712f3fba24d3
+FROM nginx:1.31.0-trixie@sha256:800e7c98538c6bf725f5177e841aa720ae0ed1c378bbea368b6330bfe18a36b3
 
 COPY fonts /usr/share/nginx/html/fonts/
 COPY assets /usr/share/nginx/html/assets/
